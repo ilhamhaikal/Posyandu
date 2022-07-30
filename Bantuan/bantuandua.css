@@ -1,0 +1,23 @@
+body{
+	background-image: url(../img/Menu/bg1.png);
+}
+#about-me{
+    background-color: #fdfdfd;
+}
+
+#about-me .row .col-md-8 {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
+#coba{
+	background-image: url(../img/Menu/bggg.png);
+}
+#about-me .row .col-md-4 {
+    padding: 3rem;
+}
+
+#about-me .container .row img:nth-child(2) {
+    width: 250px;
+}

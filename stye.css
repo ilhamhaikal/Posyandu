@@ -1,0 +1,75 @@
+.bawahnav {
+  background-image: url(img/Menu/bggg.png);
+  background-attachment: scroll;
+  background-size: cover;
+  background-origin: inherit;
+}
+#form-inline form{
+	align-content: left;
+}
+#judul{
+	font-size: 35px;
+  margin: 0px 0px 0px 18px;
+  font-family: futura;
+  color: black;
+}
+.row{
+  margin-top: 
+}
+#logonav{
+  margin-left: 30px;
+}
+
+.t-inline-block{
+	font-size: 50px;
+}
+/*.sidenav {
+  list-style: none;
+  height: 100%;
+  width: 180px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 96px;
+
+}*/
+/*.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav li {
+	list-style: none;
+}*/
+
+#box{
+	border: none;
+}
+.box{
+  padding: 20px;
+  margin-bottom: 10px;
+}
+#content{
+  position: absolute;
+  align-content: center;
+}
+
+@media screen and (max-height: 640px) {
+	#wraper {width: 640px; 
+			position: relative;}
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      .card-img-top {width: 50px;}
+}
+

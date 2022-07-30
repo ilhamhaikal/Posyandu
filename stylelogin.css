@@ -1,0 +1,25 @@
+body{
+	background:url(img/Menu/bggg2.png);
+	background-repeat: repeat-y;
+	background-size: 100%;
+	
+}
+#container{
+	overflow: hidden;
+}
+#Login{
+	float: left;
+	margin-top: 5px;
+}
+#Mamah{
+	padding-left:700px;
+	padding-top: 180px;
+}
+.form1{
+    margin: -335px 205px;
+ }
+@media screen and (max-width: 700px) {	
+	#Mamah{
+		display: block;
+		}
+}

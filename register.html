@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>REGISTER</title>
+            </head>
+            <body>
+                <form action="sysregister" method="POST"> 
+                        REGISTRASI
+                        <table class="user">
+                            <tr>
+                                <td>username : <br><input type = "text" placeholder = "username" id="username"></td>
+                            </tr>
+                        </table>
+                        <table class="pass">
+                            <tr>
+                                <td>Password : <br><input type = "text" placeholder = "password" id="password"></td>
+                            </tr>
+                        </table><br>
+                </form>
+                
+                <button type="button" id="register">REGISTRASI</button>
+                <button type="button" onclick="window.location.href='home3.html'">KEMBALI</button>
+                <span id="status"></span>
+        </body>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        var username;
+        var password;
+        var register;
+        $(document).ready(function(){
+            $("#register").click(function(){
+            username = $("#username").val();
+            password = $("#password").val();
+
+            register = {
+                "username" : username,
+                "password" : password
+            };
+            
+            $.ajax({
+                type : "POST",
+                url : "sysregister.php",
+                data : {register : register},
+                cache : false,
+                success: function(msg){
+                    if(msg.message=="Akun berhasil dibuat"){
+                        $("#status").html("Tambah Akun Berhasil . . . .");
+                    }else{
+                        $("#status").html("Gagal Buat Akun . . . . ");
+                    }
+                }
+            });
+            });
+        });
+        </script>
+        
+    
+</html>

@@ -1,0 +1,9 @@
+body{
+    font-family: "futura Md BT";
+}
+input{
+	width: 30%;
+}
+.form-control{
+	width: 50%;
+}

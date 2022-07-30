@@ -1,0 +1,36 @@
+body{
+    font-family: "futura Md BT";
+}
+legend{
+    border : 2px solid white;
+    float: right;
+    border-radius : 20px;
+    background : #3CAEA3;
+    font-size: 25px;
+    color : white; 
+    padding : 10px;
+    margin-bottom: -500px;
+}
+.form-horizontal{
+    width: 50%;
+    margin-top: 140px;
+    margin-left: 390px; 
+}
+
+th, td{
+  padding: 5px 20px 5px 20px;
+}
+#label{
+    font-weight: bold;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-right: 10px;
+}
+.form-control{
+        width: 50%;
+}
+.form-group{
+    margin-bottom: 10px;
+}

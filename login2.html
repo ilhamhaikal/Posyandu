@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>LOGIN</title>
+    </head>
+    <body>
+   <form action="syslogin.php" method="POST" onsubmit="return validasi()">
+    <label>
+        username : 
+    </label>
+    <input type="text" name="username" id="username" />
+    <label>Password : </label>
+    <input type="password" name="password" id="password" />
+    <input type="submit" value="LOGIN" class="tombol">
+</form>
+    </body>
+    <script type="text/javascript">
+    var username = document.getElementById("username").val();
+    var password = document.getElementById("password").val();
+    if (username != "" && password !=""){
+        return true;
+    }else{
+        alert('username atau password harus diisi ! ');
+        return false;
+    }
+    </script>
+</html>
